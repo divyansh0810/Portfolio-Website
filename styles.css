@@ -6,7 +6,7 @@ body {
 .header {
     width: 100%;
     height: 700px;
-    background-image: url(programming-web-development-code-wallpaper-preview.jpg);
+    background-image: url(Assests/programming-web-development-code-wallpaper-preview.jpg);
     text-align: center;
     align-items: center;
     position: absolute;
@@ -348,6 +348,7 @@ color:rgba(255, 255, 255, 0.5);
 .copy{
 color:whitesmoke;
 text-align: center; 
+
 }
 .skills-bg img{
 width: 70px;
