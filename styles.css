@@ -1,0 +1,360 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-image: url(programming-web-development-code-wallpaper-preview.jpg);
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    font-family: "Kaushan Script,cursive";
+    color: #05cae9;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.name {
+    font-family: "Kaushan Script,cursive";
+    color: #05cae9;
+    line-height: 1.3;
+    transform: rotate(-5deg);
+    line-height: 1.3;
+    font-size: 50px;
+    font-weight: 300px;
+}
+.designation {
+    font-size: 16px;
+    box-sizing: border-box;
+    line-height: 1.1;
+    padding-top: 5px;
+}
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+}
+.links {
+    margin-left: 10px;
+    align-items: center;
+}
+.links a:hover {
+    color: gold;
+}
+i {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+.about {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Space Mono",Arial,Arial, Helvetica, sans-serif;
+}
+.head {
+    display: flex;
+    padding-left: 30px;
+    width: auto;
+    color: #05cae9;
+    text-decoration: none;
+}
+.tags {
+    margin: 20px;
+    font-weight: 300px;
+}
+
+.nav {
+    height: 50px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.main
+{
+    height: 90vh;
+    width: 100vh;
+}
+.navigation a {
+    margin-left: 40px;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 70%;
+}
+
+.navigation a:hover {
+    color: #33dcdc;
+}
+.name{
+    font-weight: bolder;
+}
+th{
+    color: white;
+    font-size: 15px;
+    font-weight: 300px;
+    font-weight: bold;
+    padding: 5px;
+    font-family: "Space Mono", Arial, Helvetica, sans-serif;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 250px;
+    padding-left: 250px;
+    font-family: "Space Mono", monospace;
+}
+.details{
+    display: flex;
+    width: 100%;
+    height: 320px;
+    margin-top: -100px;
+    
+}
+.table{
+    width: 50%;
+    height: auto;
+}
+.about-content{
+    color: #33dcdc;
+    width: 50%;
+    height: auto;
+    font-size: 20px;
+    font-family: "Space Mono",Arial,Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+.myresume-tag{
+    font-size: 30px;
+    font-family: "Space Mono",Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+.Workexperience{
+    height: 50px;
+    width: 400px;
+    background-color: #05cae9;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Space Mono",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+}
+.work{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.company{
+color: rgba(255, 255, 255, 0.5);
+font-family: "Space Mono",Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 129px;
+margin-top: 30px; 
+text-align: center;
+width: 50%;
+}
+.degreelogo{
+zoom: 1.5;
+margin-top: px;
+margin-left: 15px;
+text-align: left;
+margin-left: 500px;
+color: #05cae9;
+}
+.work-details{
+color: #33dcdc;
+font-family: "Space Mono", Arial, Helvetica, sans-serif;
+width: 50%;
+margin-left: 100px;
+height: 350px;
+
+}
+.education{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.extra-left{
+    width: 30%;
+    display: flex;
+}
+.extra-right{
+    width: 30%;
+    display: flex;
+}
+.education-details{
+width: 50%;
+color: #33dcdc;
+font-family: "Space Mono", Arial, Helvetica, sans-serif;
+margin-right: 420px;
+margin: auto;
+margin-left: 420px;
+}
+.college{
+color: rgba(255, 255, 255, 0.5);
+font-family: "Space Mono",Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 420px;
+margin-top: 30px; 
+text-align: left;
+width: 50%;
+
+}
+.Degree-details{
+margin: auto;
+margin-right: 10px;
+color: whitesmoke;
+font-family: "Space Mono",Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 420px;
+margin-top: 30px; 
+text-align: left;
+width: 50%;
+}
+.mastersdetail{
+    display: flex;
+    width: 70%;
+}
+.degreedetail{
+    display: flex;
+    width: 70%;
+}
+.designation-details{
+margin: auto;
+color: whitesmoke;
+font-family: "Space Mono",Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 375px;
+margin-top: 30px; 
+text-align: left;
+}
+.Worklogo{
+zoom: 1.5;
+align-items: center;
+text-align: center;
+color: #05cae9;
+margin-left: -320px;
+}
+.bachelorslogo{
+    zoom: 1.5;
+align-items: center;
+text-align: center;
+color: #05cae9;
+margin-left: -290px;
+}
+.sepr{
+    height:4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin-top: 50px;
+}
+.Skills-tag{
+    font-family: "Space Mono",Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    font-size: 30px;
+    font-weight: 0px;
+}
+.skills-bg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #05cae9;
+    color: #33dcdc;
+    margin-left: 100px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+.skills-bg p {
+  margin-top: 97px;     
+  margin-left: 74px;   
+}
+.skills-per{
+    margin-top:40px;
+    margin-left: -125px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.skills{
+    display: flex;
+    margin: auto;   
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 350px;
+    padding: 20px;   
+    width: 100%;  
+
+}
+.resume{
+width: 40%;
+height: auto;
+margin-left: 20px;
+}
+button{
+height: 50px;
+width: auto;
+font-size: large;
+background-color: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+margin-left: 40px;
+font-style: italic;
+color: aliceblue;
+font-weight: bolder;
+}
+button:hover{
+background-color:#33dcdc;
+color:black;
+}
+.contact-me{
+font-size: 30px;
+color: white;
+font-family: 'monospace','Courier New', Courier ;
+margin-top: 30px;
+text-align: center;
+}
+i:hover{
+
+color:rgba(255, 255, 255, 0.5);
+}
+.copy{
+color:whitesmoke;
+text-align: center; 
+}
+.skills-bg img{
+width: 70px;
+margin-left: -15px;
+}
+.skills-bg img:hover{
+
+width: 70px;
+margin-left: -15px;
+}
